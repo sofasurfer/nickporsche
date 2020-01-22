@@ -1,6 +1,14 @@
-
+    
     <footer class="container-fluid">
-        <center><small>Built by <a href="https://www.sofasurfer.org" title="Sofasurfer.org" target="_blank">sofasurfer.org</a></small></center>
+      <div class="row">
+        <div class="col-md-6"><span class="copyright">© Nick Porsche 2020</span></div>
+        <div class="col-md-6 pull-right">
+          <span class="connect">connect:</span>
+          <a href="https://www.spotify.com" title="Spotify" target="_blank"><i class="fab fa-spotify"></i></a>
+          <a href="https://www.facebook.com/nickporschemusic/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.youtube.com/channel/UCvj2mdgThzJ-4Pc81TrBSiA" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
     </footer>
 
 
@@ -27,6 +35,7 @@
 
     <script>
 
+    window.addEventListener("load", function(){
 
         var $animation_elements = $('.animation-element');
         var $window = $(window);
@@ -65,6 +74,16 @@
         $window.on('scroll resize', check_if_in_view);
         $window.trigger('scroll');
 
+
+   
+        $('.item-hover').hover( function() {
+            $(this).find('.item-hover-caption').fadeIn(300);
+        }, function() {
+            $(this).find('.item-hover-caption').fadeOut(100);
+        });
+        $(this).find('.item-hover-caption').fadeIn(300);
+
+    });
     </script>
 </body>
 </html>

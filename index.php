@@ -118,6 +118,48 @@
                 <h2>Releases</h2>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="n-release item-hover">
+                    <img class="img-responsive" src="/assets/images/release-1.jpg" />
+                    <div class="caption item-hover-caption" style="display: none;">
+                        <h3>The Crew EP </h3>
+                        <p>Vinyl 10’’ & Digital 28 September 2018</p>
+                        <a class="buy" title="" href="https://nickporsche.bandcamp.com/" target="_blank">Buy</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="n-release item-hover">
+                    <img class="img-responsive" src="/assets/images/release-2.jpg" />
+                    <div class="caption item-hover-caption" style="display: none;">
+                        <h3> This Is What I Got </h3>
+                        <p>Vinyl 10’’ & Digital 28 September 2018</p>
+                        <a class="buy" title="" href="https://nickporsche.bandcamp.com/" target="_blank">Buy</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="n-release item-hover">
+                    <img class="img-responsive" src="/assets/images/release-3.jpg" />
+                    <div class="caption item-hover-caption" style="display: none;">
+                        <h3>Blood</h3>
+                        <p>Vinyl 10’’ & Digital 28 September 2018</p>
+                        <a class="buy" title="" href="https://nickporsche.bandcamp.com/" target="_blank">Buy</a>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row n-booking">
+        <img class="img-responsive" src="/assets/images/Hand_Elemente.png"/>
+        <div class="n-booking-text">
+            <h2>BOOKING</h2>
+            <a href="mailto:info@matthiasrutthishauser.ch">info@matthiasrutthishauser.ch</a>
+        </div>
     </div>
 </div>
 

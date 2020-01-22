@@ -3,17 +3,23 @@
 html, body{
   color: black;
   font-family: 'Helvetica'
+  letter-spacing: 0.3rem!important;  
 }
 
 h2{
   font-weight: bold;
   margin-bottom: 5rem;
   text-transform: uppercase;
+  letter-spacing: 0.3rem!important; 
 }
 p{
-  font-size: 20px!important;  
+  font-size: 20px!important;
+  letter-spacing: 0.3rem!important; 
 }
 
+a{
+  letter-spacing: 0.3rem!important;   
+}
 a:hover{
   color: #EDA9A5;
 }
@@ -135,3 +141,97 @@ ul.nav{
 }
 
 
+
+.item-hover{
+    position:relative;
+    margin-bottom: 30px;
+}
+
+.item-hover-caption{
+    position:absolute;
+    /*color: white;*/
+    display: none;
+    top: 0px;        
+    bottom: 0px;
+    width: 100%;
+    padding: 30px;
+    color: white;
+    font-size: 1.5rem;
+    text-align: left;
+    background-color: black;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;        
+}
+
+.item-hover-caption h3{
+    /*color: white;*/
+    font-weight: bold;
+    font-size: 2rem;        
+}
+.item-hover-caption a.buy{
+  color: #EDA9A5;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.3rem;
+  position:absolute;
+  bottom: 80px;  
+}
+
+.item-hover-caption a.buy:before{
+  top: -30px;
+  content: '';
+  border-bottom: 2px solid #fff;
+  width: 20px;
+  display: block;
+  position:absolute;
+}
+.item-hover-caption a.buy:after{
+  content: '';
+  border-bottom: 2px solid #EDA9A5;
+  width: 100%;
+  display: block;
+  margin-top: -3px;
+}
+
+.item-hover-caption a.buy:hover{
+  text-decoration: none;
+}
+
+.n-booking{
+  position: relative;
+}
+.n-booking-text{
+  position: absolute;
+  right: 20%;
+  top: 30%;
+  color: white;
+}
+.n-booking-text a{
+  color: white;
+  font-size: 2rem;
+}
+.n-booking-text a:hover{
+  text-decoration: none; 
+}
+.n-booking-text a:after{
+  content: '';
+  border-bottom: 2px solid white;
+  width: 100%;
+  display: block;
+  margin-top: -3px;
+}
+
+
+footer{
+  padding: 17rem 0px;
+  color: white;
+  background: url('/assets/images/HG_K.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}
