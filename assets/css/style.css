@@ -51,11 +51,14 @@ header{
   width: 1270px;
 }
 
+.navbar-collapse{
+  display: flex!important;
+  justify-content : center!important;
+}
+
 ul.nav{
   float: none;
-  display: block;
-  display: flex!important;
-  justify-content : center!important;  
+  display: inline-block;
 }
 
 .navbar-default .navbar-nav > li > a{
