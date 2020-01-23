@@ -5,6 +5,7 @@ html, body{
   font-family: 'Helvetica'
   letter-spacing: 0.3rem!important; 
   scroll-behavior: smooth;  
+  -webkit-overflow-scrolling: touch;
 }
 
 h2{
