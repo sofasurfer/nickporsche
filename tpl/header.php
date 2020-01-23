@@ -47,11 +47,14 @@
                 </ul>
             </center>
             </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
             <figure class="n-logo">
                 <img class="n-logo-img" src="/assets/images/nickporsche_Logo.png" alt="Nick Porsche Logo" />
             </figure>
         </div>
-    </nav>
-
+    </div>
  
 </header>

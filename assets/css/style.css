@@ -43,12 +43,13 @@ header{
 }
 
 .n-logo{
-  margin-top: 10rem;
+  margin-top: 18rem;
   display: flex!important;
   justify-content : center!important;   
 }
 .n-logo img{
   width: 1270px;
+  height: 100%;
 }
 
 .navbar-collapse{
