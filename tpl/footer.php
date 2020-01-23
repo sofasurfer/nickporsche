@@ -2,11 +2,13 @@
     <footer class="container-fluid">
       <div class="row">
         <div class="col-md-6"><span class="copyright">© Nick Porsche 2020</span></div>
-        <div class="col-md-6 pull-right">
+        <div class="col-md-6">
+          <div class="n-connect pull-right">
           <span class="connect">connect:</span>
-          <a href="https://www.spotify.com" title="Spotify" target="_blank"><i class="fab fa-spotify"></i></a>
-          <a href="https://www.facebook.com/nickporschemusic/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
-          <a href="https://www.youtube.com/channel/UCvj2mdgThzJ-4Pc81TrBSiA" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.spotify.com" title="Spotify" target="_blank"><i class="fab fa-spotify"></i></a>
+            <a href="https://www.facebook.com/nickporschemusic/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.youtube.com/channel/UCvj2mdgThzJ-4Pc81TrBSiA" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
         </div>
       </div>
     </footer>

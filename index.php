@@ -6,7 +6,7 @@
     </div>
 </div>
 <div class="n-dark">
-    <div class="container">
+    <div id="nickporsche" class="container">
         <div class="row">
             <div class="col-md-8">
                 <h2>NICK PORSCHE</h2>
@@ -28,7 +28,7 @@
     </div>
 </div>
 
-<div class="container-fluid?">
+<div  id="videos" class="container-fluid?">
     <div id="carousel-example-generic" class="carousel slide" data-interval="false" data-ride="carousel">
 
       <!-- Wrapper for slides -->
@@ -58,7 +58,7 @@
 </div>
 
 <div class="n-pink">
-    <div class="container n-gig-list">
+    <div id="gigs" class="container n-gig-list">
         <div class="row">
             <div class="col-md-6">
                 <h2>Gigs</h2>
@@ -112,7 +112,7 @@
 </div>
 
 <div class="n-dark">
-    <div class="container">
+    <div id="releases" class="container">
         <div class="row">
             <div class="col-md-8">
                 <h2>Releases</h2>
@@ -153,7 +153,7 @@
     </div>
 </div>
 
-<div class="container-fluid">
+<div id="booking" class="container-fluid">
     <div class="row n-booking">
         <img class="img-responsive" src="/assets/images/Hand_Elemente.png"/>
         <div class="n-booking-text">

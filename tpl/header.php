@@ -39,11 +39,11 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <center>
                 <ul id="menu-header-menu" class="nav navbar-nav">
-                    <li class="menu-item "><a href="#top">Nick Porsche</a></li>
-                    <li class="menu-item "><a href="#top">Video</a></li>
-                    <li class="menu-item "><a href="#top">Gigs</a></li>
-                    <li class="menu-item "><a href="#top">Releases</a></li>
-                    <li class="menu-item "><a href="#top">Booking</a></li>
+                    <li class="menu-item "><a href="#nickporsche">Nick Porsche</a></li>
+                    <li class="menu-item "><a href="#videos">Video</a></li>
+                    <li class="menu-item "><a href="#gigs">Gigs</a></li>
+                    <li class="menu-item "><a href="#releases">Releases</a></li>
+                    <li class="menu-item "><a href="#booking">Booking</a></li>
                 </ul>
             </center>
             </div>

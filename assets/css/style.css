@@ -3,7 +3,8 @@
 html, body{
   color: black;
   font-family: 'Helvetica'
-  letter-spacing: 0.3rem!important;  
+  letter-spacing: 0.3rem!important; 
+  scroll-behavior: smooth;  
 }
 
 h2{
@@ -67,6 +68,7 @@ ul.nav{
 
 .n-link-list{
   list-style: none;
+  margin-top: 2rem;
 }
 .n-link-list li{
   margin-bottom: 1.0rem;
@@ -227,7 +229,9 @@ ul.nav{
 
 
 footer{
-  padding: 17rem 0px;
+  padding: 50px 100px!important;
+  font-size: 1.7rem;
+  font-weight: bold;
   color: white;
   background: url('/assets/images/HG_K.png') no-repeat center center; 
   -webkit-background-size: cover;
@@ -235,3 +239,11 @@ footer{
   -o-background-size: cover;
   background-size: cover;  
 }
+footer a{
+  margin-left: 50px;
+}
+footer .fab{
+  color: white;
+}
+
+
