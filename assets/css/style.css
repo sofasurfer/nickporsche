@@ -38,13 +38,13 @@ header{
 }
 
 .navbar-default{
-  margin-top: 3.2rem;
+  padding-top: 3.2rem;
   border: none;
   background-color: transparent;
 }
 
 .n-logo{
-  margin-top: 18rem;
+  margin-top: 5rem;
   display: flex!important;
   justify-content : center!important;   
 }
@@ -251,4 +251,17 @@ footer .fab{
   color: white;
 }
 
+
+@media screen and (max-width: 980px) {
+  header{
+    height: 200px;
+  }
+  .n-logo{
+    margin-top: 0px;
+  }
+  #menu-header-menu{
+    display: none;
+  }
+
+}
 

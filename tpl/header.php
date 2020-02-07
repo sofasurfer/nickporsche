@@ -24,19 +24,9 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-                
+    <nav class="navbar navbar-default">
+        <div class="container">            
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <center>
                 <ul id="menu-header-menu" class="nav navbar-nav">
                     <li class="menu-item "><a href="#nickporsche">Nick Porsche</a></li>
@@ -46,7 +36,6 @@
                     <li class="menu-item "><a href="#booking">Booking</a></li>
                 </ul>
             </center>
-            </div>
         </div>
     </nav>
     <div class="container-fluid">
