@@ -1,3 +1,11 @@
+/*
+Theme Name: NickPorsche
+Theme URI: https://www.sofasurfer.org
+Author: SofaSurfer
+Author URI: http://www.sofasurfer.org
+Description: WP theme for NickPorsche
+Version: 2.1
+*/
 
 
 html, body{
@@ -27,7 +35,7 @@ a:hover{
 }
 
 header{
-  background: url('/assets/images/HG_Rosa.png') no-repeat center center fixed; 
+  background: url('assets/images/HG_Rosa.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -35,6 +43,10 @@ header{
 
   height: 400px;
   border-bottom: solid black 5px;
+}
+
+.hidden{
+    display: none;
 }
 
 .navbar-default{
@@ -135,7 +147,7 @@ ul.nav{
 .n-pink{
   padding: 17rem 0px;
   color: white;
-  background: url('/assets/images/HG_K.png') no-repeat center center; 
+  background: url('assets/images/HG_K.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -144,10 +156,12 @@ ul.nav{
 
 .n-pink{
   color: black;
-  background: url('/assets/images/HG_Rosa.png') no-repeat center center; 
+  background: url('assets/images/HG_Rosa_2.png') no-repeat center center; 
 }
 
-
+.img-full-width{
+  width: 100vw;
+}
 
 .item-hover{
     position:relative;
@@ -232,13 +246,41 @@ ul.nav{
   margin-top: -3px;
 }
 
+#gigs_active,
+#gigs_archive{
+    display: none;
+}
+
+
+#c_gigs_active:checked ~ #gigs_active{
+    display: block;
+}
+#c_gigs_active:checked ~ div label[for=c_gigs_active]:after{
+  content: '';
+  border-bottom: 2px solid #000;
+  width: 100%;
+  display: block;
+  margin-top: -5rem;
+}
+
+
+#c_gigs_archive:checked ~ #gigs_archive{
+    display: block;
+}
+#c_gigs_archive:checked ~ div label[for=c_gigs_archive]:after{
+  content: '';
+  border-bottom: 2px solid #000;
+  width: 100%;
+  display: block;
+  margin-top: -5rem;
+}
 
 footer{
   padding: 50px 100px!important;
   font-size: 1.7rem;
   font-weight: bold;
   color: white;
-  background: url('/assets/images/HG_K.png') no-repeat center center; 
+  background: url('assets/images/HG_K.png') no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -254,13 +296,39 @@ footer .fab{
 
 @media screen and (max-width: 980px) {
   header{
-    height: 200px;
+    height: auto;
   }
   .n-logo{
     margin-top: 0px;
   }
-  #menu-header-menu{
+  #menu-header-menu,
+  .navbar-default{
     display: none;
+  }
+
+  .n-booking-text{
+    top: 480px;
+    right: 20px;
+    left: 20px;
+  }
+  .n-booking-text a{
+    font-size: 1.5rem;
+    display: inline-block;
+  }
+
+  .n-connect .connect{
+    display: none;
+  }
+
+  footer a{
+    font-size: 2rem;
+    margin-left: 10px!important;
+    margin: 15px!important;
+  }
+
+  .n-connect.pull-right{
+    float: none!important;
+    margin-top: 20px;
   }
 
 }
