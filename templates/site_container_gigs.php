@@ -47,15 +47,19 @@ foreach($gigs as $gig){
             </div>            
         </div>
         <div id="gigs_active" class="row">
-            <?php foreach($gigs_active as $gig): ?>
-                <div class="col-md-3">
-                    <div class="gig-item">
-                    <span><?= $gig['date'];?></span>
-                    <h3><?= $gig['location'];?></h3>
-                    <a target="_blank" href="<?= $gig['link'];?>"><?= $gig['title'];?></a>
+            <?php if(count($gigs_active) > 0 ): ?>
+                <?php foreach($gigs_active as $gig): ?>
+                    <div class="col-md-3">
+                        <div class="gig-item">
+                        <span><?= $gig['date'];?></span>
+                        <h3><?= $gig['location'];?></h3>
+                        <a target="_blank" href="<?= $gig['link'];?>"><?= $gig['title'];?></a>
+                        </div>
                     </div>
-                </div>
-            <?php endforeach; ?>
+                <?php endforeach; ?>
+            <?php else: ?>
+                <div class="col-md-6"><h3>No concerts at the moment</h3></div>
+            <?php endif; ?>
         </div>
         <div id="gigs_archive" class="row">
             <?php foreach($gigs_archive as $gig): ?>

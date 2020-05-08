@@ -33,7 +33,7 @@
                     <li class="menu-item "><a href="#videos">Video</a></li>
                     <li class="menu-item "><a href="#gigs">Gigs</a></li>
                     <li class="menu-item "><a href="#releases">Releases</a></li>
-                    <li class="menu-item "><a href="#booking">Booking</a></li>
+                    <li class="menu-item "><a href="#booking">Contact</a></li>
                 </ul>
             </center>
         </div>
@@ -41,7 +41,7 @@
     <div class="container-fluid">
         <div class="row">
             <figure class="n-logo">
-                <img class="img-responsive img-full-width" srcset="<?= get_stylesheet_directory_uri(); ?>/assets/images/nickporsche_Logo_Mobile.png 1440w,<?= get_stylesheet_directory_uri(); ?>/assets/images/nickporsche_Logo.png 1640w" alt="" src="<?= get_stylesheet_directory_uri(); ?>/assets/images/nickporsche_Logo.png">
+                <img class="img-responsive img-full-width" srcset="<?= get_stylesheet_directory_uri(); ?>/assets/images/nickporsche_Logo_Mobile.png 900w,<?= get_stylesheet_directory_uri(); ?>/assets/images/nickporsche_Logo.png 1640w" alt="" src="<?= get_stylesheet_directory_uri(); ?>/assets/images/nickporsche_Logo.png">
             </figure>
         </div>
     </div>

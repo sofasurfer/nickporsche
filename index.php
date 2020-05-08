@@ -27,22 +27,6 @@ if( !empty($site_elements)){
     }
 }
 
-?>
-
-
-
-<div id="booking" class="container-fluid">
-    <div class="row n-booking">
-        <img class="img-responsive img-full-width" srcset="<?= get_stylesheet_directory_uri(); ?>/assets/images/Hand_Elemente_Mobile.png 1440w,<?= get_stylesheet_directory_uri(); ?>/assets/images/Hand_Elemente.png 1640w" alt="" src="<?= get_stylesheet_directory_uri(); ?>/assets/images/Hand_Elemente.png">
-        <div class="n-booking-text">
-            <h2>BOOKING</h2>
-            <a href="mailto:info@matthiasrutthishauser.ch">info@matthiasrutthishauser.ch</a>
-        </div>
-    </div>
-</div>
-
-<?php
-
 
 get_template_part('templates/footer');
 

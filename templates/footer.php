@@ -7,6 +7,7 @@
           <span class="connect">connect:</span>
             <a href="https://open.spotify.com/artist/3BhpfjJZx4BJ24OYtsWMMG" title="Spotify" target="_blank"><i class="fab fa-spotify"></i></a>
             <a href="https://www.facebook.com/nickporschemusic/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/nickporsche/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.youtube.com/channel/UCvj2mdgThzJ-4Pc81TrBSiA" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
           </div>
         </div>
@@ -19,21 +20,27 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
-    <!-- Piwik -->
+
+
+    <!-- Matomo -->
     <script type="text/javascript">
-      var _paq = _paq || [];
+      var _paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["setCookieDomain", "*.www.nickporsche.com"]);
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);
       (function() {
         var u="//piwik.sofasurfer.org/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', 12]);
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '38']);
         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
       })();
     </script>
-    <noscript><p><img src="//piwik.sofasurfer.org/piwik.php?idsite=12" style="border:0;" alt="" /></p></noscript>
-    <!-- End Piwik Code -->
+    <noscript><p><img src="//piwik.sofasurfer.org/matomo.php?idsite=38&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+    <!-- End Matomo Code -->
+
+
 
     <script>
 
