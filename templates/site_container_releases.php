@@ -2,8 +2,8 @@
 global $wp_query;
 $news_query = array(
     'post_type' => 'release',
-    'orderby'   => 'meta_value',
-    'meta_key' => 'post_release_elements_release_date',
+    'orderby'   => 'menu_order',
+    // 'meta_key' => 'post_release_elements_release_date',
     'order'     => 'DESC',
     'numberposts' => -1,
 

@@ -5,16 +5,15 @@
         <div class="col-md-6 col-sm-12">
           <div class="n-connect pull-right">
           <span class="connect">connect:</span>
-            <a href="https://open.spotify.com/artist/3BhpfjJZx4BJ24OYtsWMMG" title="Spotify" target="_blank"><i class="fab fa-spotify"></i></a>
+            <a href="https://nickporsche.bandcamp.com/music" title="Bandcamp" target="_blank"><i class="fab fa-bandcamp"></i></a>
+            <a href="https://www.youtube.com/channel/UCvj2mdgThzJ-4Pc81TrBSiA" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
             <a href="https://www.facebook.com/nickporschemusic/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
             <a href="https://www.instagram.com/nickporsche/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.youtube.com/channel/UCvj2mdgThzJ-4Pc81TrBSiA" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://open.spotify.com/artist/3BhpfjJZx4BJ24OYtsWMMG" title="Spotify" target="_blank"><i class="fab fa-spotify"></i></a>
           </div>
         </div>
       </div>
     </footer>
-
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

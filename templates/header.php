@@ -1,12 +1,15 @@
+<?php
+$seo_info = get_field('site_seo');
+?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">  
-    <title><?php wp_title( '|', true, 'right' ); ?><?= get_bloginfo(); ?></title>
-    <meta name="description" content="Nick Porsche - drums, Igor Stepniewski - bass, Sirup Gagavil - guitar, Max Usata - vocal, Beni 06 - Farfisa">
-    <meta name="keywords" content="pop, punk, indie, hip-hop, chanson, rock, folk, swing, rap, surf, yagwud">
+    <title><?= $seo_info['title']; ?></title>
+    <meta name="description" content="<?= $seo_info['description']; ?>">
     <meta name="google-site-verification" content="2KC6nTlKXS1xgG15jEm0F67bnvosRzSYjOXX8G4eCGM" />
+    <meta name="robots" content="all" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="<?= get_stylesheet_directory_uri(); ?>/assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?= get_stylesheet_directory_uri(); ?>/assets/images/favicon-32x32.png">
