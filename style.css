@@ -246,9 +246,16 @@ ul.nav{
   margin-top: -3px;
 }
 
+
+#gigs label{
+  cursor: pointer;
+}
+
 #gigs_active,
 #gigs_archive{
     display: none;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
 }
 
 

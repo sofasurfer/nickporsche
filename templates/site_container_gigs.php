@@ -39,12 +39,9 @@ foreach($gigs as $gig){
         <input class="hidden" id="c_gigs_active" name="gigs" type="radio" checked="checked" />
         <input class="hidden" id="c_gigs_archive" name="gigs" type="radio" />
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <label for="c_gigs_active"><h2>Gigs</h2></label>
             </div>
-            <div class="col-md-6">
-                <label for="c_gigs_archive"><h2>Past gigs</h2></label>
-            </div>            
         </div>
         <div id="gigs_active" class="row">
             <?php if(count($gigs_active) > 0 ): ?>
@@ -60,6 +57,11 @@ foreach($gigs as $gig){
             <?php else: ?>
                 <div class="col-md-6"><h3>No concerts at the moment</h3></div>
             <?php endif; ?>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label for="c_gigs_archive"><h2>Past gigs</h2></label>
+            </div>            
         </div>
         <div id="gigs_archive" class="row">
             <?php foreach($gigs_archive as $gig): ?>
