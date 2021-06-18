@@ -4,7 +4,7 @@ Theme URI: https://www.sofasurfer.org
 Author: SofaSurfer
 Author URI: http://www.sofasurfer.org
 Description: WP theme for NickPorsche
-Version: 2.1
+Version: 2.5
 */
 
 
@@ -22,6 +22,11 @@ h2{
   text-transform: uppercase;
   letter-spacing: 0.3rem!important; 
 }
+
+label h2{
+  margin-bottom: 1rem;
+}
+
 p{
   font-size: 20px!important;
   letter-spacing: 0.3rem!important; 
@@ -145,7 +150,7 @@ ul.nav{
 
 .n-dark,
 .n-pink{
-  padding: 17rem 0px;
+  padding: 7rem 0px;
   color: white;
   background: url('assets/images/HG_K.png') no-repeat center center;
   -webkit-background-size: cover;
@@ -156,7 +161,7 @@ ul.nav{
 
 .n-pink{
   color: black;
-  background: url('assets/images/HG_Rosa_2.png') no-repeat center center; 
+  background: url('assets/images/HG_Rosa_2.png') no-repeat top center; 
 }
 
 .img-full-width{
@@ -246,7 +251,7 @@ ul.nav{
   margin-top: -3px;
 }
 
-
+/*
 #gigs label{
   cursor: pointer;
 }
@@ -269,7 +274,7 @@ ul.nav{
   display: block;
   margin-top: -5rem;
 }
-
+*/
 
 #c_gigs_archive:checked ~ #gigs_archive{
     display: block;

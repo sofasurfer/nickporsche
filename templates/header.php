@@ -20,7 +20,7 @@ $seo_info = get_field('site_seo');
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?= get_stylesheet_directory_uri(); ?>/style.css">
+    <link rel="stylesheet" href="<?= get_stylesheet_directory_uri(); ?>/style.css?v=<?= do_shortcode('[wp_version]') ;?>">
 
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">

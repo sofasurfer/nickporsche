@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 function c_shortcode_version(){
-    $my_theme = wp_get_theme( 'revisia' );
+    $my_theme = wp_get_theme( 'nickporsche' );
     if ( $my_theme->exists() ){
         return $my_theme->get( 'Version' );
     }

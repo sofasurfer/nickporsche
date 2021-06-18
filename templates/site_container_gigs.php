@@ -20,6 +20,7 @@ foreach($gigs as $gig){
         'date' => date('d.m.Y',$timestamp),
         'location' => get_field('post_gig_elements_gig_location',$gig),
         'title' => get_the_title($gig),
+        'description' => get_the_excerpt($gig),
         'link' => get_field('post_gig_elements_gig_link',$gig)
     );
 
@@ -40,39 +41,59 @@ foreach($gigs as $gig){
         <input class="hidden" id="c_gigs_archive" name="gigs" type="radio" />
         <div class="row">
             <div class="col-md-12">
-                <label for="c_gigs_active"><h2>Gigs</h2></label>
+                <label for="_c_gigs_active"><h2>Gigs</h2></label>
             </div>
         </div>
-        <div id="gigs_active" class="row">
+        <div id="gigs_active">
+            <div class="row">
             <?php if(count($gigs_active) > 0 ): ?>
+                <?php $counter = 0 ; ?>
                 <?php foreach($gigs_active as $gig): ?>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="gig-item">
                         <span><?= $gig['date'];?></span>
                         <h3><?= $gig['location'];?></h3>
+                        <p><?= $gig['description'];?></p>
                         <a target="_blank" href="<?= $gig['link'];?>"><?= $gig['title'];?></a>
                         </div>
                     </div>
+                    <?php
+                    if( $counter > 1 && ($counter % 2) == 0 ){
+                        echo '</div><div class="row">';
+                    }
+                    ?>
+                    <?php $counter++ ; ?>
                 <?php endforeach; ?>
+            </div>
             <?php else: ?>
-                <div class="col-md-6"><h3>No concerts at the moment</h3></div>
+                <div class="col-md-12"><h3>No concerts at the moment</h3></div>
             <?php endif; ?>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <label for="c_gigs_archive"><h2>Past gigs</h2></label>
+                <label for="_c_gigs_archive"><h2>Past gigs</h2></label>
             </div>            
         </div>
-        <div id="gigs_archive" class="row">
+        <div id="gigs_archive">
+            <div class="row">
+            <?php $counter = 0 ; ?>
             <?php foreach($gigs_archive as $gig): ?>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="gig-item">
                     <span><?= $gig['date'];?></span>
                     <h3><?= $gig['location'];?></h3>
+                    <p><?= $gig['description'];?></p>
                     <a target="_blank" href="<?= $gig['link'];?>"><?= $gig['title'];?></a>
                     </div>
                 </div>
+                <?php
+                if( $counter > 1 && ($counter % 2) == 0 ){
+                    echo '</div><div class="row">';
+                }
+                ?>
+                <?php $counter++ ; ?>
             <?php endforeach; ?>
+            </div>
         </div>
     </div>
 </div>
