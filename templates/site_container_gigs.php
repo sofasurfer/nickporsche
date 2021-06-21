@@ -37,8 +37,8 @@ foreach($gigs as $gig){
 
 <div class="n-pink">
     <div id="gigs" class="container n-gig-list">
-        <input class="hidden" id="c_gigs_active" name="gigs" type="radio" checked="checked" />
-        <input class="hidden" id="c_gigs_archive" name="gigs" type="radio" />
+        <!--input class="hidden" id="c_gigs_active" name="gigs" type="radio" checked="checked" />
+        <input class="hidden" id="c_gigs_archive" name="gigs" type="radio" /-->
         <div class="row">
             <div class="col-md-12">
                 <label for="_c_gigs_active"><h2>Gigs</h2></label>
@@ -64,10 +64,10 @@ foreach($gigs as $gig){
                     ?>
                     <?php $counter++ ; ?>
                 <?php endforeach; ?>
-            </div>
             <?php else: ?>
-                <div class="col-md-12"><h3>No concerts at the moment</h3></div>
+                <div class="col-md-12"><h3><i>No concerts at the moment</i></h3></div>
             <?php endif; ?>
+            </div>
         </div>
         <div class="row">
             <div class="col-md-12">
